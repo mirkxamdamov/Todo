@@ -1,25 +1,34 @@
-// function hasTeen(a, b, c) {
-//   if ((a >= 13 && a <= 19) || (b >= 13 && b <= 19) || (c >= 13 && c <= 19)) {
+// function mixStart(str) {
+//   if (str.charAt(1) + str.charAt(2) === "ix") {
 //     return true;
 //   }
 //   return false;
 // }
 //-------------------2---------
-// function loneTeen(a, b) {
-//   if (
-//     a == b ||
-//     (a === 13 && b === 19) ||
-//     (b > 13 && b < 19 && a > 13 && a < 19)
-//   ) {
-//     return false;
+// function startOz(str) {
+//   if (str.charAt(0) + str.charAt(1) === "oz") {
+//     return "oz";
+//   } else if (str.charAt(1) === "z") {
+//     return "z";
+//   } else if (str.charAt(0) === "o") {
+//     return "o";
 //   } else {
-//     return true;
+//     return "";
 //   }
 // }
 //------------------------------3-----------
-// function delDel(str) {
-//   if (str.charAt(1) + str.charAt(2) + str.charAt(3) === "del") {
-//     return str.charAt(0) + str.slice(4);
+// function intMax(a, b, c) {
+//   if (a > b && a > c) {
+//     return a;
+//   } else if (b > a && b > c) {
+//     return b;
+//   } else if (a > c && a > b) {
+//     return a;
+//   } else if (b > c) {
+//     return b;
+//   } else if (c > a) {
+//     return c;
+//   } else if (c > b) {
+//     return c;
 //   }
-//   return str;
 // }
